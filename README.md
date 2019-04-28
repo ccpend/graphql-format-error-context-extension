@@ -1,4 +1,4 @@
-graphql-error-tracking-extension
+graphql-format-error-context-extension
 ================================
 
 ## Usage
