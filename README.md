@@ -1,6 +1,8 @@
 graphql-format-error-context-extension
 ================================
 
+[![npm version](http://img.shields.io/npm/v/graphql-format-error-context-extension.svg?style=flat)](https://npmjs.org/package/graphql-format-error-context-extension "View this project on npm")
+
 ## Usage
 
 * This package needs `graphql-extensions` to be installed: `npm i graphql-extensions --save`
