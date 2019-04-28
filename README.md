@@ -6,12 +6,12 @@ graphql-format-error-context-extension
 ## Usage
 
 * This package needs `graphql-extensions` to be installed: `npm i graphql-extensions --save`
-* Install the npm package as a dependency `npm i graphql-error-tracking-extension --save`
+* Install the npm package as a dependency `npm i graphql-format-error-context-extension --save`
 * Add this extension and use `context` on formatError like this:
 
 ```js
-import { ApolloServer } from 'apollo-server-koa';
-import { FormatErrorWithContextExtension } from 'graphql-format-error-context-extension';
+const { ApolloServer } = require('apollo-server-koa');
+const { FormatErrorWithContextExtension } = require('graphql-format-error-context-extension');
 
 const formatError = (err, context) => {
   // can use `err` and `context`
