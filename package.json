@@ -1,6 +1,6 @@
 {
   "name": "graphql-format-error-context-extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "GraphQL server extension to format error and carry context",
   "main": "src/main.js",
   "repository": {

@@ -15,6 +15,7 @@ import { FormatErrorWithContextExtension } from 'graphql-format-error-context-ex
 
 const formatError = (err, context) => {
   // can use `err` and `context`
+  return err;
 };
 
 const server = new ApolloServer({
