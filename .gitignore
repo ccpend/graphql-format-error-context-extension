@@ -1,0 +1,7 @@
+# IDE
+.idea
+
+# Project
+node_modules/
+dist/
+package-lock.json

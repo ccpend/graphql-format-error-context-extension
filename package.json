@@ -1,0 +1,26 @@
+{
+  "name": "graphql-format-error-context-extension",
+  "version": "0.1.0",
+  "description": "GraphQL server extension to format error and carry context",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigMaster/graphql-format-error-context-extension.git"
+  },
+  "keywords": [
+    "graphql",
+    "format",
+    "error",
+    "context",
+    "extension"
+  ],
+  "author": "BigMaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BigMaster/graphql-format-error-context-extension/issues"
+  },
+  "homepage": "https://github.com/BigMaster/graphql-format-error-context-extension#readme",
+  "peerDependencies": {
+    "graphql-extensions": "^0.5.0"
+  }
+}
