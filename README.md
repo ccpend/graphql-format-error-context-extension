@@ -11,7 +11,7 @@ graphql-format-error-context-extension
 
 [npm-image]: https://img.shields.io/npm/v/graphql-format-error-context-extension.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/graphql-format-error-context-extension
-[travis-image]: https://img.shields.io/BigMaster/graphql-format-error-context-extension.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/BigMaster/graphql-format-error-context-extension.svg?style=flat-square
 [travis-url]: https://travis-ci.org/BigMaster/graphql-format-error-context-extension
 [codecov-image]: https://codecov.io/gh/BigMaster/graphql-format-error-context-extension/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/BigMaster/graphql-format-error-context-extension
