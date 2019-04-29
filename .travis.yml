@@ -11,5 +11,5 @@ jobs:
       script: echo "Deploying to npm ..."
       deploy:
         provider: npm
-        api_key: API_KEY
+        api_key: $API_KEY
         on: deploy-npm-release
