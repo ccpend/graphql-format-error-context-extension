@@ -6,6 +6,9 @@ cache: npm
 script:
   - npm run lint
   - npm run test
+  - npm install -g codecov
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - codecov --token=$CODECOV_TOKEN
 
 jobs:
   include:
