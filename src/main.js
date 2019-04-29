@@ -1,5 +1,5 @@
-const FormatErrorWithContextExtension = require('./lib/FormatErrorWithContextExtension')
+import { FormatErrorWithContextExtension } from './lib/FormatErrorWithContextExtension';
 
-module.exports = {
-  FormatErrorWithContextExtension
+export {
+    FormatErrorWithContextExtension
 };

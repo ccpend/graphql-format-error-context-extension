@@ -1,8 +1,6 @@
-const { GraphQLExtension } = require('graphql-extensions');
+import { GraphQLExtension } from 'graphql-extensions';
 
-function isFunction(functionToCheck) {
-  return functionToCheck && {}.toString.call(functionToCheck) === '[object Function]';
-}
+const isFunction = functionToCheck => functionToCheck && {}.toString.call(functionToCheck) === '[object Function]';
 
 class FormatErrorWithContextExtension extends GraphQLExtension {
   constructor(formatError) {
@@ -19,4 +17,4 @@ class FormatErrorWithContextExtension extends GraphQLExtension {
   }
 }
 
-module.exports = FormatErrorWithContextExtension;
+export { FormatErrorWithContextExtension };
