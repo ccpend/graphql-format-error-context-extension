@@ -12,8 +12,6 @@ jobs:
     - stage: npm release
       node_js: node
       script: npm run build
-      before_deploy:
-        - cd dist
       deploy:
         provider: npm
         email: "$NPM_EMAIL"
