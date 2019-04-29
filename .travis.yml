@@ -4,9 +4,12 @@ node_js:
   - lts/*
 cache: npm
 
-deploy:
-  provider: script
-  script: "cp .npmrc.template $HOME/.npmrc && npm publish"
-  skip_cleanup: true
-  on:
-    tags: true
+jobs:
+  include:
+    - stage: npm release
+      node_js: node
+      script: echo "Deploying to npm ..."
+      deploy:
+        provider: npm
+        api_key: API_KEY
+        on: deploy-npm-release
