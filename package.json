@@ -1,6 +1,6 @@
 {
   "name": "graphql-format-error-context-extension",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "GraphQL server extension to format error and carry context",
   "main": "dist/main.js",
   "module": "dist/index.es.js",
@@ -42,7 +42,8 @@
     "rollup-plugin-json": "^3.1.0",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-peer-deps-external": "^2.2.0"
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "source-map-support": "^0.5.12"
   },
   "bugs": {
     "url": "https://github.com/BigMaster/graphql-format-error-context-extension/issues"
